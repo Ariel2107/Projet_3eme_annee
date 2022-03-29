@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-"modif"
+"la on fait plusieurs modifs pour voir ce que ca donne"
 
 X = np.array([[1, 1],
               [2, 3],
