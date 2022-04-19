@@ -53,3 +53,5 @@ predicted_class = np.array(predicted_class)
 plt.plot([x for x in range(1, 4)], [-W[1]/W[2]*x - W[0]/W[2] for x in range(1, 4)], color='green')
 plt.show()
 plt.clf()
+
+#testclone
