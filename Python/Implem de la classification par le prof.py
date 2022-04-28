@@ -54,4 +54,4 @@ plt.plot([x for x in range(1, 4)], [-W[1]/W[2]*x - W[0]/W[2] for x in range(1, 4
 plt.show()
 plt.clf()
 
-#testclone
+#testclone2
