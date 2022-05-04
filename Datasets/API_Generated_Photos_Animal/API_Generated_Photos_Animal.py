@@ -35,6 +35,7 @@ def main():
                 urllib.request.urlretrieve(images, "images/" + image)
     except HTTPError:
         print("Pause ... attend tu as envoyé trop de requêtes !")
+        print("salut")
 
 
 if __name__ == '__main__':
