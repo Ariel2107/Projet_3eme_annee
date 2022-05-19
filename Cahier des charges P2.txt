@@ -1,0 +1,40 @@
+Numpy à reproduire:
+- Random.uniform
+- Sum
+- ndarray
+- Random.choice
+
+Liste à repproduire:
+- append
+
+Math à reproduire:
+- tanh
+
+Classification linéaire:
+- Predict_linear_model_classification(W, X)
+
+MLP:
+- Structure
+- Create_MLP
+- Predict_MLP
+- Train_MLP
+- Destroy_MLP
+
+Tests à réaliser:
+- Linear Simple
+- Linear Multiple
+- XOR
+- Cross
+- Multi Linear 3 classes
+- Multi Cross
+- Linear Simple 2D
+- Non Linear Simple 2D
+- Linear Simple 3D
+- Linear Tricky 3D
+- Non Linear Simple 3D
+
+
+Questions:
+- Pour la classification linéaire, l'entraînement du modèle est à faire 
+sous Python ou sur la librairie Cpp
+
