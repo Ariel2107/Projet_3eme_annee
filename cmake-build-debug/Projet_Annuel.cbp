@@ -8,96 +8,98 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projet_Annuel">
-				<Option output="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug/Projet_Annuel" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug"/>
+				<Option output="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Projet_Annuel.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet_Annuel"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet_Annuel"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projet_Annuel/fast">
-				<Option output="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug/Projet_Annuel" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug"/>
+				<Option output="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Projet_Annuel.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet_Annuel/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet_Annuel/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mamadousarambounou/Desktop/ESGI/Bachelor\ 2/2022/PROJET\ ANNUEL/Projet_3eme_annee/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/main.cpp">
+		<Unit filename="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/main.cpp">
 			<Option target="Projet_Annuel"/>
 		</Unit>
-		<Unit filename="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/tools_mamadou.cpp">
+		<Unit filename="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/tools_mamadou.cpp">
 			<Option target="Projet_Annuel"/>
 		</Unit>
-		<Unit filename="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/tools_mamadou.h">
+		<Unit filename="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/tools_mamadou.h">
 			<Option target="Projet_Annuel"/>
 		</Unit>
-		<Unit filename="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/utils_ariel.cpp">
+		<Unit filename="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/utils_ariel.cpp">
 			<Option target="Projet_Annuel"/>
 		</Unit>
-		<Unit filename="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/utils_ariel.h">
+		<Unit filename="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/utils_ariel.h">
 			<Option target="Projet_Annuel"/>
 		</Unit>
-		<Unit filename="/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/CMakeLists.txt">
+		<Unit filename="C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

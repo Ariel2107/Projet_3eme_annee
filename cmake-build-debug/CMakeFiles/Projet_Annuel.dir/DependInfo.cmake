@@ -4,13 +4,23 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/main.cpp" "C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/CMakeFiles/Projet_Annuel.dir/Library_C++/main.cpp.obj"
+  "C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/tools_mamadou.cpp" "C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/CMakeFiles/Projet_Annuel.dir/Library_C++/tools_mamadou.cpp.obj"
+  "C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/utils_ariel.cpp" "C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/cmake-build-debug/CMakeFiles/Projet_Annuel.dir/Library_C++/utils_ariel.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../Library C++"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/main.cpp" "CMakeFiles/Projet_Annuel.dir/Library_C++/main.cpp.o" "gcc" "CMakeFiles/Projet_Annuel.dir/Library_C++/main.cpp.o.d"
-  "/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/tools_mamadou.cpp" "CMakeFiles/Projet_Annuel.dir/Library_C++/tools_mamadou.cpp.o" "gcc" "CMakeFiles/Projet_Annuel.dir/Library_C++/tools_mamadou.cpp.o.d"
-  "/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++/utils_ariel.cpp" "CMakeFiles/Projet_Annuel.dir/Library_C++/utils_ariel.cpp.o" "gcc" "CMakeFiles/Projet_Annuel.dir/Library_C++/utils_ariel.cpp.o.d"
   )
 
 # Targets to which this target links.

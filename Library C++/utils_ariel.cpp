@@ -7,8 +7,8 @@
 
 template <typename T>
 
-double tanh_me(double z){
-    double result;
+float tanh_me(float z){
+    float result;
     result = (1 - exp(-2*z))/(1 + exp(-2*z));
     return result;
 }

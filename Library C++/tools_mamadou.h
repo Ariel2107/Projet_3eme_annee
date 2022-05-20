@@ -6,9 +6,7 @@
 #define PROJET_ANNUEL_TOOLS_MAMADOU_H
 
 
-class tools_mamadou {
-
-};
+float predict_linear_model(float **inputs, float *model_weights);
 
 
 #endif //PROJET_ANNUEL_TOOLS_MAMADOU_H
