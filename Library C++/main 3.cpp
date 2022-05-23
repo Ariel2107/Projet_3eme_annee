@@ -27,20 +27,6 @@ void func(int **arr, int row, int col)        //function prototype
     }
 }
 
-
-float X_tab[2][2] = {{2.0, 3.4}, {2.0, 3.4}};
-float** X = new float*[2];
-
-for (int i = 0; i < 2; ++i) {
-X[i] = new float[2];
-}
-
-for (int i = 0; i < 2; ++i) {
-    for (int j = 0; j < 2; ++j) {
-    X[i][j] = X_tab[i][j];
-    }
-}
-
 float predict_linear_model(float inputs[][], float model_weights[]) {
 
     int rows_inputs = sizeof(inputs) / sizeof(inputs[0]);

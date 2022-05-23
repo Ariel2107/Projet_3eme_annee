@@ -1,9 +1,34 @@
 //
 // Created by Mamadou SARAMBOUNOU on 19/05/2022.
 //
+#include <iostream>
+using namespace std;
 
 #include "tools_mamadou.h"
 
+<<<<<<< Updated upstream
+=======
+float random_choice(float min, float max) {
+    float random = ((float) rand()) / (float) RAND_MAX;
+    float diff = max - min;
+    float r = random * diff;
+    return min + r;
+}
+
+float* random_uniform(float min, float max, int size) {
+    float tab[size];
+    for (int i=0; i<size; i+=1){
+        float random = ((float) rand()) / (float) RAND_MAX;
+        float diff = max - min;
+        float r = random * diff;
+
+        tab[i] = min + r;
+    }
+
+    return tab;
+}
+
+>>>>>>> Stashed changes
 float predict_linear_model(float **inputs, float *model_weights) {
 
     int rows_inputs = sizeof(inputs) / sizeof(inputs[0]);
@@ -32,4 +57,10 @@ float predict_linear_model(float **inputs, float *model_weights) {
         return -1;
     }
 
+}
+
+float* train_linear_model_classification(){
+
+    //TODO
+    return 0;
 }
