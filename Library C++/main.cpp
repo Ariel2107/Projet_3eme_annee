@@ -8,6 +8,7 @@
 #include "utils_ariel.h"
 #include "tools_mamadou.h"
 #include <iomanip>
+#include "MLP.h"
 
 using namespace std;
 
