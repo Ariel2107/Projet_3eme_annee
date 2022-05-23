@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Projet_Annuel.exe"
-		},
-		{
-			"path" : "Projet_Annuel.pdb"
+			"path" : "Projet_Annuel"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -55,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Noureddine SKB/ProjetAnnuel/Projet_3eme_annee/Library C++"
+					"path" : "/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/Library C++"
 				}
 			],
 			"language" : "CXX",
@@ -88,16 +85,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Projet_Annuel",
-	"nameOnDisk" : "Projet_Annuel.exe",
+	"nameOnDisk" : "Projet_Annuel",
 	"paths" : 
 	{
 		"build" : ".",

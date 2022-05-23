@@ -42,7 +42,7 @@ float* Append2(float *tab1, float *tab2){
     return results;
 }
 
-double* Append2(double *tab1, double tab2){
+double* Append2(double *tab1, double *tab2){
     double *results;
     int len1 = sizeof(tab1);
     int len2 = sizeof(tab2);
