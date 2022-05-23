@@ -5,7 +5,7 @@
 #ifndef PROJET_ANNUEL_UTILS_H
 #define PROJET_ANNUEL_UTILS_H
 
-double tanh_me(double z);
+float tanh_me(float z);
 
 int sum(double* W, float* inputs);
 

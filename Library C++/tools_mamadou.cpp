@@ -3,6 +3,7 @@
 //
 
 #include "tools_mamadou.h"
+
 float predict_linear_model(float **inputs, float *model_weights) {
 
     int rows_inputs = sizeof(inputs) / sizeof(inputs[0]);
