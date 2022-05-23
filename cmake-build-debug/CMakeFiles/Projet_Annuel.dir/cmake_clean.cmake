@@ -1,12 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Projet_Annuel.dir/Library_C++/main.cpp.obj"
-  "CMakeFiles/Projet_Annuel.dir/Library_C++/tools_mamadou.cpp.obj"
-  "CMakeFiles/Projet_Annuel.dir/Library_C++/utilis_mourad.cpp.obj"
-  "CMakeFiles/Projet_Annuel.dir/Library_C++/utils_ariel.cpp.obj"
-  "Projet_Annuel.exe"
-  "Projet_Annuel.exe.manifest"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/main.cpp.o"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/main.cpp.o.d"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/tools_mamadou.cpp.o"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/tools_mamadou.cpp.o.d"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/utilis_mourad.cpp.o"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/utilis_mourad.cpp.o.d"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/utils_ariel.cpp.o"
+  "CMakeFiles/Projet_Annuel.dir/Library_C++/utils_ariel.cpp.o.d"
+  "Projet_Annuel"
   "Projet_Annuel.pdb"
-  "libProjet_Annuel.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
