@@ -4,6 +4,7 @@
 
 #include "MLP.h"
 #include "utils_ariel.h"
+#include "utilis_mourad.h"
 
 struct MLP {
     double*** W;
@@ -12,6 +13,24 @@ struct MLP {
     int32_t L;
     int32_t* d;
 };
+
+MLP* create_mlp_model(int* npl){
+    MLP model;
+    model.d = npl;
+    model.L = sizeof(model.d) - 1;
+    for (int i = 0; i < sizeof(model.d); i++) {
+        Append2(model.W, []);
+        if (i == 0){
+            continue;
+        }
+        for (int j = 0; j < model.d[i - 1] + 1; i++) {
+            Append2(model.W[i], []);
+            for (int k = 0; k < model.d[]; ++k) {
+                Append2()
+            }
+        }
+    }
+}
 
 float* predict_mlp_model(struct MLP * model, float* inputs, int32_t inputs_size, int32_t is_classification) {
     for (auto i = 0; i < model->d[0]; ++i) {
