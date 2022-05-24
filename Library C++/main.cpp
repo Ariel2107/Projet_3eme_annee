@@ -9,12 +9,17 @@
 #include <iomanip>
 #include "MLP.h"
 #include "tools_mamadou.h"
+#include "utilis_mourad.h"
+
 
 using namespace std;
 
 int main()
 {
     std::cout <<"Hello, World!"<<std::endl;
+    std::vector<int> tab1 = {1, 2, 3};
+    std::vector<int> tab2 = {4, 5, 6};
+    std::vector<int> tab3 = Append(tab1, tab2);
     double x = 1.30584843, result, varr1;
     result = (1 - exp(-2*x))/(1 + exp(-2*x));
     varr1 = tanh(1.30584843);
@@ -23,6 +28,7 @@ int main()
     cout << "tanh from script = " << setprecision(16) << result << endl;
     cout << "tanh from cmath = " << setprecision(16) << varr1 << endl;
     cout << "tanh from my method = " << setprecision(16) << second_result << endl;
+    display(tab3);
 
     float old_W[3] = {0.1, 0.2, 0.3};
     float* W = new float[3];

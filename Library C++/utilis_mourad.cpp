@@ -16,6 +16,7 @@ std::vector<float> Append(std::vector<float> tab1, std::vector<float> tab2){
     results.reserve(tab1.size() + tab2.size());
     results.insert(results.end(), tab1.begin(), tab1.end());
     results.insert(results.end(), tab2.begin(), tab2.begin());
+    return results;
 }
 
 std::vector<double> Append(std::vector<double> tab1, std::vector<double> tab2){
@@ -23,9 +24,11 @@ std::vector<double> Append(std::vector<double> tab1, std::vector<double> tab2){
     results.reserve(tab1.size() + tab2.size());
     results.insert(results.end(), tab1.begin(), tab1.end());
     results.insert(results.end(), tab2.begin(), tab2.end());
+    return results;
 }
 
 float* Append2(float *tab1, float *tab2){
+    //Fonction qui prend en entré deux tableau de float et renvoie un unique tableau contenant la valeur des deux tableaux en paramètre
     float *results;
     int len1 = sizeof(tab1);
     int len2 = sizeof(tab2);
@@ -35,7 +38,7 @@ float* Append2(float *tab1, float *tab2){
         results[j] = tab1[i];
         j++;
     }
-    for (int k = 0; k < len2; ++k) {
+    for (int k = 0; k < len2; k++) {
         results[j] = tab2[i];
         j++;
     }
@@ -43,6 +46,7 @@ float* Append2(float *tab1, float *tab2){
 }
 
 double* Append2(double *tab1, double *tab2){
+    //idem avec tableau de double
     double *results;
     int len1 = sizeof(tab1);
     int len2 = sizeof(tab2);
@@ -52,7 +56,7 @@ double* Append2(double *tab1, double *tab2){
         results[j] = tab1[i];
         j++;
     }
-    for (int k = 0; k < len2; ++k) {
+    for (int k = 0; k < len2; k++) {
         results[j] = tab2[i];
         j++;
     }
@@ -60,16 +64,17 @@ double* Append2(double *tab1, double *tab2){
 }
 
 int* Append2(int *tab1, int* tab2){
+    //idem avec tableau d'entier
     int *results;
     int len1 = sizeof(tab1);
     int len2 = sizeof(tab2);
     int i;
     int j = 0;
-    for (int i = 0; i < len1; ++i) {
+    for (int i = 0; i < len1; i++) {
         results[j] = tab1[i];
         j++;
     }
-    for (int k = 0; k < len2; ++k) {
+    for (int k = 0; k < len2; k++) {
         results[j] = tab2[i];
         j++;
     }

@@ -6,8 +6,7 @@ using namespace std;
 
 #include "tools_mamadou.h"
 
-<<<<<<< Updated upstream
-=======
+
 float random_choice(float min, float max) {
     float random = ((float) rand()) / (float) RAND_MAX;
     float diff = max - min;
@@ -28,7 +27,6 @@ float* random_uniform(float min, float max, int size) {
     return tab;
 }
 
->>>>>>> Stashed changes
 float predict_linear_model(float **inputs, float *model_weights) {
 
     int rows_inputs = sizeof(inputs) / sizeof(inputs[0]);

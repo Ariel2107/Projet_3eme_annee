@@ -4,6 +4,8 @@
 
 #include "MLP.h"
 #include "utils_ariel.h"
+#include "utilis_mourad.h"
+#include "tools_mamadou.h"
 
 struct MLP {
     double*** W;
@@ -13,23 +15,44 @@ struct MLP {
     int32_t* d;
 };
 
+
 MLP* create_mlp_model(int* npl){
     //TODO
-    MLP model;
+    MLP model; //crée un MLP à partir de sa structure
     model.d = npl;
     model.L = sizeof(model.d) - 1;
     for (int i = 0; i < sizeof(model.d); i++) {
+
         Append2(model.W, []);
         if (i == 0){
             continue;
         }
         for (int j = 0; j < model.d[i - 1] + 1; i++) {
-            Append2(model.W[i], []);
-            for (int k = 0; k < model.d[]; ++k) {
-                Append2()
+            Append2(model.W[i], int* newtab);
+            for (int k = 0; k < model.d[i]; i++) {
+                if (j==0){
+                    Append2(model.W[i][j],0);
+                }else{
+                    Append2(model.W[i][j], random_uniform(-1.0, 1.0));
+                }
             }
         }
     }
+    int *newtab = [1.0];
+    int *newtab2 = [0.0];
+    for (int i = 0; i < sizeof(model.d); i++) {
+        Append2(model.X, []);
+        Append2(model.deltas, []);
+        for (int j = 0; j < model.d[i] + 1; j++) {
+            if (j == 0){
+                Append2(model.X[i], newtab);
+            }else {
+                Append2(model.X[i], 0.0);
+            }
+            Append2(model.deltas[i], 0.0);
+        }
+    }
+    return model;
 }
 
 float* predict_mlp_model(struct MLP * model, float* inputs, int32_t is_classification) {
