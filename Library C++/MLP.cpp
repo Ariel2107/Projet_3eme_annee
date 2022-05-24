@@ -47,7 +47,7 @@ MLP* create_mlp_model(int* npl){
             if (j == 0){
                 Append2(model.X[i], newtab);
             }else {
-                Append2(model.X[i], 0.0);
+                Append2(model.X[i], newtab2);
             }
             Append2(model.deltas[i], 0.0);
         }
