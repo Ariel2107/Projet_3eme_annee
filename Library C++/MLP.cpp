@@ -22,8 +22,8 @@ MLP* create_mlp_model(int* npl){
     model.d = npl;
     model.L = sizeof(model.d) - 1;
     for (int i = 0; i < sizeof(model.d); i++) {
-
-        Append2(model.W, []);
+        int* voidtab = [];
+        Append2(model.W, voidtab);
         if (i == 0){
             continue;
         }
@@ -41,8 +41,9 @@ MLP* create_mlp_model(int* npl){
     int *newtab = [1.0];
     int *newtab2 = [0.0];
     for (int i = 0; i < sizeof(model.d); i++) {
-        Append2(model.X, []);
-        Append2(model.deltas, []);
+        int* tabvoid = [];
+        Append2(model.X, tabvoid);
+        Append2(model.deltas, tabvoid);
         for (int j = 0; j < model.d[i] + 1; j++) {
             if (j == 0){
                 Append2(model.X[i], newtab);
