@@ -7,13 +7,7 @@
 #include "utilis_mourad.h"
 #include "tools_mamadou.h"
 
-struct MLP {
-    double*** W;
-    double** X;
-    double** deltas;
-    int32_t L;
-    int32_t* d;
-};
+
 
 
 MLP* create_mlp_model(int* npl){
