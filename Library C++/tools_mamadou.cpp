@@ -57,8 +57,22 @@ float predict_linear_model(float **inputs, float *model_weights) {
 
 }
 
-float* train_linear_model_classification(){
+float* train_linear_model_classification(int max_iteration, float **inputs, float *model_weights, float **output, float learning_step){
 
-    //TODO
-    return 0;
+    int cols_inputs = sizeof(inputs[0]) / sizeof(inputs[0][0]);
+    int k = random_choice(0, cols_inputs);
+    float g_x_k = predict_linear_model(inputs, model_weights);
+    float y_k = output[1][k];
+
+    float diff = y_k - g_x_k;
+    model_weights[0] = model_weights[0] + learning_step * diff * 1;
+
+
+    for (int i = 1; k < cols_inputs; k += 1) {
+
+        model_weights[i] = model_weights[i] + learning_step * diff * 1;
+
+    }
+
+    return model_weights;
 }
