@@ -24,7 +24,7 @@ def main():
             try:
                 open("images/" + image)
                 print("Le fichier existe deja !")
-            except OSError:
+            except FileNotFoundError:
                 print(Fore.GREEN + "1 image enregitré  : " + image)
                 urllib.request.urlretrieve(images, "images/" + image)
             except HTTPError:
