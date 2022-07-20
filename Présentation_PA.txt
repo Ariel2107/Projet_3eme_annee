@@ -1,0 +1,36 @@
+Projet Annuel Présentation (5 jurys):
+15 min Préz / 10 min questions
+
+Exemple de plan (pas obligatoire)
+
+- Présentation de groupe
+
+- Focus sur la problèmatique applicative
+-- Pourquoi c'est dur/Pourquoi un développeur aura du mal à réaliser cette tâche ? 
+---Justifier l'usage du ML --> DL
+
+- Datasets (Nb images, Diversité, Nb classes, Dimension d'origine et transformé)
+-- Montrer exemples du Dataset
+-- Constitution
+
+- Expérimentation
+-- Tous les tests / Résultats de chaque test / Toutes les hypothèses / Décisions qui en ont découlé
+--- Méthode chronologique(Problème/Hypothèes/Test/Conclusion)
+--- Méthode Teaser (du résultat du moins au plus impressionant)
+
+- Démonstration
+-- Niveau 1 avec des données qu'on a choisi
+-- Niveau 2 avec des données choisi au préalable et que le jury choisis
+-- Niveau 3 laisser le jury choisir des données sur le net
+
+
+- Post-mortem (Parmi toutes les étapes quelles ont été les plus difficiles)
+-- Best results
+-- Ouverture si on pouvait aller plus loin...
+
+Merci + Questions
+
+Astuces:
+- Se mettre à la place des membres du Jury
+- Laisser des indices sur des questions
+
