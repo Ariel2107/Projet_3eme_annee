@@ -1,3 +1,0 @@
-/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug/CMakeFiles/Projet_Annuel.dir
-/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mamadousarambounou/Desktop/ESGI/Bachelor 2/2022/PROJET ANNUEL/Projet_3eme_annee/cmake-build-debug/CMakeFiles/rebuild_cache.dir
