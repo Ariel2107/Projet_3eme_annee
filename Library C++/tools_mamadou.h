@@ -8,6 +8,8 @@
 
 float random_choice(float min, float max);
 
+int random_choice_int(int min, int max);
+
 float* random_uniform(float min, float max, int size);
 
 float predict_linear_model(float **inputs, float *model_weights);

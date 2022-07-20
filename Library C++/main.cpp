@@ -3,55 +3,52 @@
 //
 
 #include <iostream>
-#include <cmath>
-#include <bits/stdc++.h>
-#include "utils_ariel.h"
-#include <iomanip>
-#include "MLP.h"
-#include "tools_mamadou.h"
+#include <cstdint>
 #include "utilis_mourad.h"
-
+#include "MLP.h"
 
 using namespace std;
 
 int main()
 {
-    std::cout <<"Hello, World!"<<std::endl;
-    std::vector<int> tab1 = {1, 2, 3};
-    std::vector<int> tab2 = {4, 5, 6};
-    std::vector<int> tab3 = Append(tab1, tab2);
-    double x = 1.30584843, result, varr1;
-    result = (1 - exp(-2*x))/(1 + exp(-2*x));
-    varr1 = tanh(1.30584843);
-    float second_result;
-   //second_result = tanh_me(1.30584843);
-    cout << "tanh from script = " << setprecision(16) << result << endl;
-    cout << "tanh from cmath = " << setprecision(16) << varr1 << endl;
-    cout << "tanh from my method = " << setprecision(16) << second_result << endl;
-    display(tab3);
-
-    float old_W[3] = {0.1, 0.2, 0.3};
-    float* W = new float[3];
-    for (int i = 0; i < 3; ++i) {
-        W[i] = old_W[i];
-    }
-
-    float X_tab[2][2] = {{2.0, 3.4}, {2.0, 3.4}};
-    float** X = new float*[2];
-    for (int i = 0; i < 2; ++i) {
-        X[i] = new float[2];
-    }
-
-    for (int i = 0; i < 2; ++i) {
-        for (int j = 0; j < 2; ++j) {
-            X[i][j] = X_tab[i][j];
+    float old_X[4][2] = {{1,0}, {0,1}, {0,0}, {1, 1}};
+    float * *X = new float *;
+    for (int32_t i = 0; i < 4; ++i) {
+        X[i] = new float;
+        for (int32_t j = 0; j < 2; ++j) {
+            X[i][j] = old_X[i][j];
         }
     }
 
+    float old_Y[4][1] = {{1}, {1}, {-1}, {-1}};
+    float * *Y = new float *;
+    for (int32_t i = 0; i < 4; ++i) {
+        Y[i] = new float;
+        for (int32_t j = 0; j < 1; ++j) {
+            Y[i][j] = old_Y[i][j];
+        }
+    }
 
-    float res = predict_linear_model(X, W);
-
-    cout << "Result predicted = " << setprecision(16) << res << endl;
+    int32_t * npl = new int32_t;
+    npl[0] = 2;
+    npl[1] = 5;
+    npl[2] = 1;
+    MLP * model = create_mlp_model(npl, 3);
+    cout << "Before Training :" << endl;
+    for (int32_t i = 0; i < 4; ++i) {
+        float * prediction = predict_mlp_model(model, X[i], 2, 1);
+        for (int32_t j = 1; j < 2; ++j) {
+            cout << j << " : " << prediction[j] << endl;
+        }
+    }
+    MLP * trained_model = train_MLP(model, X, 4, Y, 0.01, 1, 10000);
+    cout << "After Training :" << endl;
+    for (int32_t i = 0; i < 4; ++i) {
+        float * prediction = predict_mlp_model(trained_model, X[i], 2, 1);
+        for (int32_t j = 1; j < 2; ++j) {
+            cout << j << " : " << prediction[j] << endl;
+        }
+    }
 
     return 0;
 }

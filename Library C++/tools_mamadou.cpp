@@ -14,8 +14,16 @@ float random_choice(float min, float max) {
     return min + r;
 }
 
+int random_choice_int(int min, int max) {
+    int random = ((int) rand()) / (int) RAND_MAX;
+    int diff = max - min;
+    int r = random * diff;
+    return min + r;
+}
+
 float* random_uniform(float min, float max, int size) {
-    float tab[size];
+    float *tab;
+
     for (int i=0; i<size; i+=1){
         float random = ((float) rand()) / (float) RAND_MAX;
         float diff = max - min;
