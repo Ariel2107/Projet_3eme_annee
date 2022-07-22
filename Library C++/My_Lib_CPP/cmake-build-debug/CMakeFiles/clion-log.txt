@@ -1,0 +1,20 @@
+C:\Users\ariel\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/ariel/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/win/ninja.exe -G Ninja -S "C:\Users\ariel\OneDrive\Bureau\ESGI\Bachelor\Projet Annuel\Library C++\My_Lib_CPP" -B "C:\Users\ariel\OneDrive\Bureau\ESGI\Bachelor\Projet Annuel\Library C++\My_Lib_CPP\cmake-build-debug"
+CMake Error at CMakeLists.txt:6 (find_package):
+  By not providing "FindEigen3.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Eigen3", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Eigen3" (requested
+  version 3.3) with any of the following names:
+
+    Eigen3Config.cmake
+    eigen3-config.cmake
+
+  Add the installation prefix of "Eigen3" to CMAKE_PREFIX_PATH or set
+  "Eigen3_DIR" to a directory containing one of the above files.  If "Eigen3"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/ariel/OneDrive/Bureau/ESGI/Bachelor/Projet Annuel/Library C++/My_Lib_CPP/cmake-build-debug/CMakeFiles/CMakeOutput.log".
